@@ -15,13 +15,13 @@ function App() {
 
  return(
   <Router>
-    <Routes>
+    <Route>
            <Route path = '/admin' element= {AdminDashboard} />
            <Route path = '/detail' element = {AdminDemandDetail} />
            <Route path = '/app' element = {ApplicationPage} />   
            <Route path = '/simulation' element = {SimulationPage} />
 
-    </Routes>
+    </Route>
 
   </Router>
  )
