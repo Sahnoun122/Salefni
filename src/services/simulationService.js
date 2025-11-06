@@ -1,4 +1,4 @@
-const URL = "http://localhost:3000/selfni/simulations";
+const URL = "http://localhost:4000/simulation";
 
 
 export async function obtenirSimulations(){

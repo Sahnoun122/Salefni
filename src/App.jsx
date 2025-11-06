@@ -1,30 +1,18 @@
-import React  from "react";
+// src/App.jsx
+import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
+// import PageSimulation from "./pages/PageSimulation";
+import PageCreationSimulation from "./pages/PageCreationSimulation";
+// import PageDetailSimulation from "./pages/PageDetailSimulation";
 
-import { BrowserRouter as Router , Route , link , Switch } from "react-router-dom";
-
-import './app.css';
-
-import AdminDashboard from "./pages/AdminDashboard";
-import AdminDemandDetail from "./pages/AdminDemandDetail";
-
-import ApplicationPage from "./pages/ApplicationPage";
-
-import SimulationPage from "./pages/SimulationPage";
-import { application } from "express";
-function App() {
-
- return(
-  <Router>
-    <Route>
-           <Route path = '/admin' element= {AdminDashboard} />
-           <Route path = '/detail' element = {AdminDemandDetail} />
-           <Route path = '/app' element = {ApplicationPage} />   
-           <Route path = '/simulation' element = {SimulationPage} />
-
-    </Route>
-
-  </Router>
- )
+export default function App() {
+  return (
+    <BrowserRouter>
+      <Routes>
+        {/* <Route path="/" element={<Navigate to="/simulation" replace />} />
+        <Route path="/simulation" element={<PageSimulation />} /> */}
+        <Route path="/new" element={<PageCreationSimulation />} />
+        {/* <Route path="/simulation/:id" element={<PageDetailSimulation />} /> */}
+      </Routes>
+    </BrowserRouter>
+  );
 }
-
-export default App

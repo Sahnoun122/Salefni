@@ -18,7 +18,7 @@ export default function CarteSimulation({sim , onSupprimer}){
 
           <div className="flex gap-2">
             <Link
-              to={`/selfni/simulation/${sim.id}`}
+              to={`/simulation/${sim.id}`} 
               className="text-sm px-3 py-1 border rounded"
             >
               Voir

@@ -1,6 +1,6 @@
 {
-  "selfni": {
-    "simulations": [
+  
+    "simulation": [
       {
         "id": 1,
         "typeCredit": "Auto",
@@ -121,4 +121,3 @@
       }
     ]
   }
-}
