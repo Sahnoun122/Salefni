@@ -64,8 +64,19 @@
       "revenuMensuel": 12000,
       "situationPro": "CDI",
       "commentaire": "Je souhaite financer une voiture familiale.",
-      "status": "en attente",
-      "notes": [],
+      "status": "acceptée",
+      "notes": [
+        {
+          "id": 1,
+          "content": "ghdh",
+          "date": "2025-11-07T15:07:05.229Z"
+        },
+        {
+          "id": 2,
+          "content": "",
+          "date": "2025-11-07T15:07:09.075Z"
+        }
+      ],
       "createdAt": "2025-11-04T10:00:00Z"
     },
     {
@@ -77,12 +88,17 @@
       "revenuMensuel": 30000,
       "situationPro": "Libéral",
       "commentaire": "Projet d'achat d'un appartement à Casablanca.",
-      "status": "en cours",
+      "status": "refusée",
       "notes": [
         {
           "id": 1,
           "content": "Demande prioritaire à vérifier",
           "date": "2025-11-04T11:00:00Z"
+        },
+        {
+          "id": 2,
+          "content": "",
+          "date": "2025-11-07T15:07:18.132Z"
         }
       ],
       "createdAt": "2025-11-03T15:00:00Z"
