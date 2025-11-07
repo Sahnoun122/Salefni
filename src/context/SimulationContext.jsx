@@ -35,7 +35,7 @@ export function FournisseurSimulation ({children}){
 
         try {
             const cree = await service.creerSimulation(sim);
-            setSimulations(prev=> [prev , ...cree]);
+            setSimulations((prev) => [cree, ...prev]);
             return cree
             
         } catch (e) {

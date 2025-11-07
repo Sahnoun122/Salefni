@@ -29,7 +29,13 @@ export default function PageCreationSimulation(){
 
     function actionCalculer(){
 
-        const res = calculerCredit(form.montant , form.dureeMois , form.tauxAnnuel , form.fraisFixes , form.assurance );
+        const res = calculerCredit(
+          form.montant,
+          form.dureeMois,
+          form.tauxAnnuel,
+          form.fraisFixes,
+          form.assurance
+        );
         setResultat(res);
     }
 
@@ -39,7 +45,7 @@ export default function PageCreationSimulation(){
             return
         }
 
-        setEnCours(true);
+        setCours(true);
 
         try {
             

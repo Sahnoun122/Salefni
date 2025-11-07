@@ -1,123 +1,166 @@
 {
-  
-    "simulation": [
-      {
-        "id": 1,
-        "typeCredit": "Auto",
-        "metier": "Ingénieur",
-        "montant": 150000,
-        "dureeMois": 60,
-        "tauxAnnuel": 4.5,
-        "fraisFixes": 500,
-        "assurance": 1.2,
-        "mensualite": 2800.75,
-        "coutTotal": 168045,
-        "taeg": 4.8,
-        "createdAt": "2025-11-04T09:00:00Z"
-      },
-      {
-        "id": 2,
-        "typeCredit": "Immobilier",
-        "metier": "Médecin",
-        "montant": 800000,
-        "dureeMois": 240,
-        "tauxAnnuel": 3.8,
-        "fraisFixes": 1200,
-        "assurance": 0.9,
-        "mensualite": 4720.5,
-        "coutTotal": 1132920,
-        "taeg": 4.1,
-        "createdAt": "2025-11-03T14:15:00Z"
-      },
-      {
-        "id": 3,
-        "typeCredit": "Consommation",
-        "metier": "Étudiant",
-        "montant": 30000,
-        "dureeMois": 24,
-        "tauxAnnuel": 6.5,
-        "fraisFixes": 100,
-        "assurance": 1.5,
-        "mensualite": 1340.4,
-        "coutTotal": 32169.6,
-        "taeg": 7.1,
-        "createdAt": "2025-10-30T16:00:00Z"
-      }
-    ],
-    "applications": [
-      {
-        "id": 1,
-        "simulationId": 1,
-        "nom": "Khadija Sahnoun",
-        "email": "khadija@example.com",
-        "telephone": "+212600112233",
-        "revenuMensuel": 12000,
-        "situationPro": "CDI",
-        "commentaire": "Je souhaite financer une voiture familiale.",
-        "status": "en attente",
-        "notes": [],
-        "createdAt": "2025-11-04T10:00:00Z"
-      },
-      {
-        "id": 2,
-        "simulationId": 2,
-        "nom": "Youssef El Amrani",
-        "email": "youssef@example.com",
-        "telephone": "+212611223344",
-        "revenuMensuel": 30000,
-        "situationPro": "Libéral",
-        "commentaire": "Projet d'achat d'un appartement à Casablanca.",
-        "status": "en cours",
-        "notes": [
-          {
-            "id": 1,
-            "content": "Demande prioritaire à vérifier",
-            "date": "2025-11-04T11:00:00Z"
-          }
-        ],
-        "createdAt": "2025-11-03T15:00:00Z"
-      },
-      {
-        "id": 3,
-        "simulationId": 3,
-        "nom": "Sara Bennani",
-        "email": "sara@example.com",
-        "telephone": "+212622334455",
-        "revenuMensuel": 4500,
-        "situationPro": "Étudiante",
-        "commentaire": "Besoin d’un petit prêt pour études.",
-        "status": "refusée",
-        "notes": [
-          {
-            "id": 1,
-            "content": "Revenus insuffisants pour ce montant",
-            "date": "2025-11-02T10:30:00Z"
-          }
-        ],
-        "createdAt": "2025-10-30T17:00:00Z"
-      }
-    ],
-    "notifications": [
-      {
-        "id": 1,
-        "message": "Nouvelle demande de crédit de Khadija Sahnoun",
-        "applicationId": 1,
-        "read": false,
-        "createdAt": "2025-11-04T10:05:00Z"
-      },
-      {
-        "id": 2,
-        "message": "Mise à jour du statut : demande de Youssef El Amrani en cours",
-        "applicationId": 2,
-        "read": true,
-        "createdAt": "2025-11-03T16:00:00Z"
-      },
-      {
-        "id": 3,
-        "message": "Demande de Sara Bennani refusée",
-        "applicationId": 3,
-        "read": true,
-        "createdAt": "2025-10-30T18:00:00Z"
-      }
-    ]
-  }
+  "simulation": [
+    {
+      "id": 1,
+      "typeCredit": "Auto",
+      "metier": "Ingénieur",
+      "montant": 150000,
+      "dureeMois": 60,
+      "tauxAnnuel": 4.5,
+      "fraisFixes": 500,
+      "assurance": 1.2,
+      "mensualite": 2800.75,
+      "coutTotal": 168045,
+      "taeg": 4.8,
+      "createdAt": "2025-11-04T09:00:00Z"
+    },
+    {
+      "id": 2,
+      "typeCredit": "Immobilier",
+      "metier": "Médecin",
+      "montant": 800000,
+      "dureeMois": 240,
+      "tauxAnnuel": 3.8,
+      "fraisFixes": 1200,
+      "assurance": 0.9,
+      "mensualite": 4720.5,
+      "coutTotal": 1132920,
+      "taeg": 4.1,
+      "createdAt": "2025-11-03T14:15:00Z"
+    },
+    {
+      "id": 3,
+      "typeCredit": "Consommation",
+      "metier": "Étudiant",
+      "montant": 30000,
+      "dureeMois": 24,
+      "tauxAnnuel": 6.5,
+      "fraisFixes": 100,
+      "assurance": 1.5,
+      "mensualite": 1340.4,
+      "coutTotal": 32169.6,
+      "taeg": 7.1,
+      "createdAt": "2025-10-30T16:00:00Z"
+    },
+    {
+      "montant": 84,
+      "dureeMois": 98,
+      "tauxAnnuel": 45,
+      "fraisFixes": 60,
+      "assurance": 60,
+      "mensualite": 10.29,
+      "coutTotal": 1008.42,
+      "createdAt": "2025-11-07T08:48:19.802Z",
+      "id": 4
+    },
+    {
+      "montant": 15,
+      "dureeMois": 90,
+      "tauxAnnuel": 17,
+      "fraisFixes": 31,
+      "assurance": 31,
+      "mensualite": 1.49,
+      "coutTotal": 134.13,
+      "createdAt": "2025-11-07T08:50:52.847Z",
+      "id": 5
+    },
+    {
+      "montant": 34,
+      "dureeMois": 15,
+      "tauxAnnuel": 59,
+      "fraisFixes": 17,
+      "assurance": 17,
+      "mensualite": 4.9,
+      "coutTotal": 73.51,
+      "createdAt": "2025-11-07T08:52:55.294Z",
+      "id": 6
+    },
+    {
+      "montant": 100000000,
+      "dureeMois": 80,
+      "tauxAnnuel": 5,
+      "fraisFixes": 1,
+      "assurance": 1,
+      "mensualite": 1639131.16,
+      "coutTotal": 131130492.68,
+      "createdAt": "2025-11-07T08:53:46.687Z",
+      "id": 7
+    }
+  ],
+  "applications": [
+    {
+      "id": 1,
+      "simulationId": 1,
+      "nom": "Khadija Sahnoun",
+      "email": "khadija@example.com",
+      "telephone": "+212600112233",
+      "revenuMensuel": 12000,
+      "situationPro": "CDI",
+      "commentaire": "Je souhaite financer une voiture familiale.",
+      "status": "en attente",
+      "notes": [],
+      "createdAt": "2025-11-04T10:00:00Z"
+    },
+    {
+      "id": 2,
+      "simulationId": 2,
+      "nom": "Youssef El Amrani",
+      "email": "youssef@example.com",
+      "telephone": "+212611223344",
+      "revenuMensuel": 30000,
+      "situationPro": "Libéral",
+      "commentaire": "Projet d'achat d'un appartement à Casablanca.",
+      "status": "en cours",
+      "notes": [
+        {
+          "id": 1,
+          "content": "Demande prioritaire à vérifier",
+          "date": "2025-11-04T11:00:00Z"
+        }
+      ],
+      "createdAt": "2025-11-03T15:00:00Z"
+    },
+    {
+      "id": 3,
+      "simulationId": 3,
+      "nom": "Sara Bennani",
+      "email": "sara@example.com",
+      "telephone": "+212622334455",
+      "revenuMensuel": 4500,
+      "situationPro": "Étudiante",
+      "commentaire": "Besoin d’un petit prêt pour études.",
+      "status": "refusée",
+      "notes": [
+        {
+          "id": 1,
+          "content": "Revenus insuffisants pour ce montant",
+          "date": "2025-11-02T10:30:00Z"
+        }
+      ],
+      "createdAt": "2025-10-30T17:00:00Z"
+    }
+  ],
+  "notifications": [
+    {
+      "id": 1,
+      "message": "Nouvelle demande de crédit de Khadija Sahnoun",
+      "applicationId": 1,
+      "read": false,
+      "createdAt": "2025-11-04T10:05:00Z"
+    },
+    {
+      "id": 2,
+      "message": "Mise à jour du statut : demande de Youssef El Amrani en cours",
+      "applicationId": 2,
+      "read": true,
+      "createdAt": "2025-11-03T16:00:00Z"
+    },
+    {
+      "id": 3,
+      "message": "Demande de Sara Bennani refusée",
+      "applicationId": 3,
+      "read": true,
+      "createdAt": "2025-10-30T18:00:00Z"
+    }
+  ]
+}

@@ -6,8 +6,7 @@ export default function ChampSaisie({
   type = "text",
   placeholder = "",
 }) {
-
-
+  return (
     <div className="mb-3">
       <label className="block text-sm font-medium mb-1">{label}</label>
       <input
@@ -18,5 +17,6 @@ export default function ChampSaisie({
         placeholder={placeholder}
         className="w-full border rounded p-2 focus:outline-none focus:ring-2 focus:ring-blue-300"
       />
-    </div>;
+    </div>
+  );
 }

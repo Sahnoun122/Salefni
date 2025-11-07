@@ -10,7 +10,7 @@ export async function obtenirSimulations(){
 }
 
 export async function obtenirSimulationParId(id){
-    const res = await fetch(`${url}/${id}`);
+    const res = await fetch(`${URL}/${id}`);
     if(!res.ok)
         throw new Error("simulations non trouvee ")
 
