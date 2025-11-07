@@ -52,39 +52,6 @@
       "coutTotal": 1008.42,
       "createdAt": "2025-11-07T08:48:19.802Z",
       "id": 4
-    },
-    {
-      "montant": 15,
-      "dureeMois": 90,
-      "tauxAnnuel": 17,
-      "fraisFixes": 31,
-      "assurance": 31,
-      "mensualite": 1.49,
-      "coutTotal": 134.13,
-      "createdAt": "2025-11-07T08:50:52.847Z",
-      "id": 5
-    },
-    {
-      "montant": 34,
-      "dureeMois": 15,
-      "tauxAnnuel": 59,
-      "fraisFixes": 17,
-      "assurance": 17,
-      "mensualite": 4.9,
-      "coutTotal": 73.51,
-      "createdAt": "2025-11-07T08:52:55.294Z",
-      "id": 6
-    },
-    {
-      "montant": 100000000,
-      "dureeMois": 80,
-      "tauxAnnuel": 5,
-      "fraisFixes": 1,
-      "assurance": 1,
-      "mensualite": 1639131.16,
-      "coutTotal": 131130492.68,
-      "createdAt": "2025-11-07T08:53:46.687Z",
-      "id": 7
     }
   ],
   "applications": [
