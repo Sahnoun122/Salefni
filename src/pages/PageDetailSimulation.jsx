@@ -56,10 +56,17 @@ async function charger (){
             <strong>Coût total :</strong> {sim.coutTotal} DH
           </li>
         </ul>
-
         <div className="mt-4">
           <Link to="/new" className="text-blue-600">
             Créer une nouvelle simulation
+          </Link>
+        </div>
+        <div className="mt-4 flex gap-3">
+          <Link
+            to={`/demande/${sim.id}`}
+            className="bg-blue-600 text-white px-4 py-2 rounded"
+          >
+            Faire une demande
           </Link>
         </div>
       </div>

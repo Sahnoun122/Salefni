@@ -4,6 +4,8 @@ import PageCreationSimulation from "./pages/PageCreationSimulation";
 import PageSimulation from "./pages/PageSimulation";
 import PageDetailSimulation from "./pages/PageDetailSimulation";
 
+import PageDemandeCredit from "./pages/PageDemandeCredit";
+
 export default function App() {
   return (
     <BrowserRouter>
@@ -12,6 +14,7 @@ export default function App() {
         <Route path="/simulation" element={<PageSimulation />} />
 
         <Route  path = "/simulation/:id"  element= {<PageDetailSimulation/>} />
+        < Route path ="/demande/:simulationId"  element = { < PageDemandeCredit /> } />
       </Routes>
     </BrowserRouter>
   );
