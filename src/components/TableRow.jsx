@@ -13,7 +13,7 @@ export default function TableRow({ demande }) {
       <td className="border p-2">
         <Link
           to={`/admin/demandes/${demande.id}`}
-          className="text-blue-600 underline"
+          className="text-orange-400 hover:text-orange-300 font-semibold transition-colors duration-200"
         >
           Voir Détails
         </Link>
